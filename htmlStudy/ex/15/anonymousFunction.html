@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let click = function(a,b) {
+            return a+b;
+        }
+        console.log(click(10,20));
+
+        console.log((function(a,b){ //즉시실행
+            return a+b;
+        })(100,200));
+
+        let click2 = (a,b) => {
+            return a+b;
+        }
+        // let click2 = (a,b) =>  a+b;
+        //  return이 한줄만 실행될 땐 중괄호 생략가능 ,중괄호가 있으면 return이 있어야함
+        //let click2 = (a,b) =>  {alert(a+b);} ->return이 없어도 가능 (alert은 알림창이기때문)
+        console.log(click2(40,50));
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Gugi&display=swap');
+        *{font-family: 'Gugi', cursive; font-size: 30PX;
+          font-weight: 400; }      
+
+        .bg-container{display: flex; justify-content: center; align-items: center; 
+                      position: relative;
+                      width:1000px; height: 600px; 
+                      max-width: 1000px; overflow: hidden;}
+        .bg-img{width:100%; }
+
+        .test-text{position: absolute; top:50%; left:50%; 
+                   color: rgba(245, 7, 7, 0.342);
+                   transform: translate(-50%,-50%); }
+
+        .test-text2{text-align: center; 
+                    line-height: 30px;}
+
+        a{text-decoration: none;
+          color: coral;
+          text-shadow: 0px 0px 10px black;
+
+          }
+        /*
+        .a-text{text-decoration: none;
+                color: coral;}
+        */
+
+        .spacing{word-spacing : 100px}
+
+        ul{list-style: none;}
+
+        table{border-collapse: collapse;
+              border: 1px solid black;}
+        td{border: 1px solid black;}
+
+    </style>
+</head>
+<body>
+    <div class="bg-container">
+        <img src="images/bg.jpg" alt="" class="bg-img">
+
+        <p class="test-text">Do it! HTML, CSS, 자바스크립트</p>
+    </div>
+
+    <div>
+        <p class="test-text2">HTML</p>
+        <P class="test-text2">CSS</P>
+        <P class="test-text2">Javascript</P>
+    </div>
+
+    <div>
+        <a href="http://www.naver.com/" class="a-text">네이버링크</a>
+    </div>
+
+    <div>
+        <p class="spacing">css Javascript</p>
+
+    </div>
+
+    <div>
+        <ul>
+            <li>html</li>
+            <li>css</li>
+            <li>Javascript</li>
+        </ul>
+    </div>
+
+    <div>
+        <table>
+            <tr>
+                <td>a</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>b</td>
+                <td>b</td>
+                <td>b</td>
+            </tr>
+            <tr>
+                <td>c</td>
+                <td>c</td>
+                <td>c</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
